@@ -1,5 +1,5 @@
-const pluriel = (nb) => {
-    nb > 0 ? "s" : "";
+function pluriel(nb){
+    return nb > 0 ? "s" : "";
 }
 
 const compteRebout = () => {
@@ -31,6 +31,11 @@ const compteRebout = () => {
     document.querySelector(".heure").innerText = texteHeure;
     document.querySelector(".minute").innerText = texteMinute;
     document.querySelector(".seconde").innerText = texteSeconde;
+
+    document.getElementById("jourupdate").innerHTML = "Jour"+pluriel(texteJour);
+    document.getElementById("heureupdate").innerHTML = "Heure"+pluriel(texteHeure);
+    document.getElementById("minuteupdate").innerHTML = "Minute"+pluriel(texteMinute);
+    document.getElementById("secondeupdate").innerHTML = "Seconde"+pluriel(texteSeconde);
     
 
 }
