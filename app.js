@@ -1,3 +1,7 @@
+const pluriel = (nb) => {
+    nb > 0 ? "s" : "";
+}
+
 const compteRebout = () => {
     //Date de fin du compte à rebout
     const jourDebut = new Date('January 1, 2022 00:00:00').getTime();//conversion en milliseconde
