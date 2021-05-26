@@ -7,4 +7,5 @@ donc les élément doivent être bien disposé. Chaque enfant doit être placé 
 Les selecteur ont plus servi au script app.js. Nous allons justement nous concentré sur ce 
 fichier.
 
-#################### fichier app.js ############################
+
+############################################## fichier app.html ##################################################
